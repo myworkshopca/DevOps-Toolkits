@@ -1,5 +1,3 @@
-# hello DevOps
+# List of topics
 
-Testing links:
-* [README](README.md)
-* [Page One](page1.md)
+* [Git](git/index.md)
