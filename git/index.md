@@ -59,3 +59,12 @@ git push -u origin B_NAME
 Git commit reset author:
 
 git commit --amend --reset-author
+
+## Errors and troubleshooting
+
+For error **fatal: Not possible to fast-forward, aborting**:
+The simple fix is pull with rebase option:
+
+```bash
+git pull --rebase
+```
