@@ -12,7 +12,7 @@ Search and replace within current buffer.
 :%s/abc\_.*def/af/gc
 ```
 
-The *\_.* will match any character including the new line.
+The *\\_.* will match any character including the new line.
 
 Reference page:
 * [Search across multiple lines](https://vim.fandom.com/wiki/Search_across_multiple_lines)
