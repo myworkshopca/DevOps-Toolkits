@@ -56,9 +56,12 @@ git merge upstream/B_NAME
 git push -u origin B_NAME
 ```
 
-Git commit reset author:
+Git commit reset author.
+This command is also very useful to update the comments for the most recent commit.
 
+```bash
 git commit --amend --reset-author
+```
 
 ## Errors and troubleshooting
 
