@@ -24,7 +24,7 @@ Reference page:
 :bufdo %s/from/to/g | update
 ```
 
-The **update** command will save all updated fuffers.
+The **update** command will save all updated buffers.
 
 
 ## Open multiple files at once
@@ -39,3 +39,9 @@ vim `grep -lr --include=*.java --exclude=*/target/* 'javax.ws' .`
 Check the post:
 
 * [vim search replace all files in current folder](https://vi.stackexchange.com/questions/2776/vim-search-replace-all-files-in-current-project-folder#:~:text=If%20you%20want%20to%20perform,multiple%20filenames%20or%20even%20globs.&text=You%20can%20view%20the%20current,by%20running%20%3Aargs%20by%20itself.)
+
+## Vim on Windows, gvim tips
+
+How to turn off menu bar, toolbar, and acroll bar.
+All three bars are turned on by default the following command will turn them off.
+Adding them to **~/.vimrc** or session file.
