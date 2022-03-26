@@ -18,6 +18,13 @@ Reference page:
 
 * [Search across multiple lines](https://vim.fandom.com/wiki/Search_across_multiple_lines)
 
+### Search string at the beginning of a line
+
+```vim
+# search the subtitle of a md file.
+:vimgrep /^##/ %
+```
+
 ### bufdo to search replace in multifiles
 
 ```vim
