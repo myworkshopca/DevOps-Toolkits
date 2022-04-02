@@ -36,7 +36,7 @@ git branch -d BRANCH_NAME
 git branch -avv
 ```
 
-Sync fork with upstream.
+## Sync fork with upstream.
 
 ```bash
 # add upstream
@@ -56,12 +56,22 @@ git merge upstream/B_NAME
 git push -u origin B_NAME
 ```
 
-Git commit reset author.
+## Git commit reset author.
+
 This command is also very useful to update the comments for the most recent commit.
 
 ```bash
 git commit --amend --reset-author
 ```
+
+## How to change commit message in romte?
+
+There 2 options:
+* git commit --amend
+* git rebase -i HEAD~1
+
+Good reference:
+* [How to Change a Git Commit Message](https://linuxize.com/post/change-git-commit-message/)
 
 ## Errors and troubleshooting
 
