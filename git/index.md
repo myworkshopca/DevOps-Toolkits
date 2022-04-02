@@ -73,6 +73,11 @@ There 2 options:
 Good reference:
 * [How to Change a Git Commit Message](https://linuxize.com/post/change-git-commit-message/)
 
+## Combine (squash) commits into one
+
+References:
+* [Squash commits into one with Git](https://www.internalpointers.com/post/squash-commits-into-one-git)
+
 ## Errors and troubleshooting
 
 For error **fatal: Not possible to fast-forward, aborting**:
