@@ -87,3 +87,14 @@ The simple fix is pull with rebase option:
 ```bash
 git pull --rebase
 ```
+
+## Create pull request for a sepcific commit
+
+The basic steps:
+
+* create a new branch from the upsteam remote
+* push the new branch to origin
+* cherry pick the commit
+* create pull request from the new branch
+
+Here is good reference page: [How to create a pull request with a specific commits?](https://poanchen.github.io/blog/2017/11/12/How-to-create-a-GitHub-pull-request-with-a-specific-commits)
