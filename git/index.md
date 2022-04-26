@@ -53,6 +53,7 @@ git merge upstream/B_NAME
 
 # if B_NAME is a new branch from upstream,
 # we just need push it to origin (fork repo).
+# option -u will set the upstream
 git push -u origin B_NAME
 ```
 
