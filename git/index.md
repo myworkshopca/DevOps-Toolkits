@@ -98,3 +98,8 @@ The basic steps:
 * create pull request from the new branch
 
 Here is good reference page: [How to create a pull request with a specific commits?](https://poanchen.github.io/blog/2017/11/12/How-to-create-a-GitHub-pull-request-with-a-specific-commits)
+
+## Git stash
+
+Reference post:
+* [Git stash](https://opensource.com/article/21/4/git-stash)
