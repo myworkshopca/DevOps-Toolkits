@@ -39,6 +39,13 @@ The **update** command will save all updated buffers.
 ```bash
 # open all java files using javax.ws package.
 vim `grep -lr --include=*.java --exclude=*/target/* 'javax.ws' .`
+
+# open all the merge conflict files in current folder.
+# We are searching only the following files:
+# - pom.xml
+# - *.java
+# - .gitignore
+vim `grep -lr --include={pom.xml,*.java,.gitignore} '<<<<<<< HEAD' .`
 ```
 
 ## args and argdo
