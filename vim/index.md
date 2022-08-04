@@ -21,14 +21,15 @@ Reference page:
 ### Search string at the beginning of a line
 
 ```vim
-# search the subtitle of a md file.
-:vimgrep /^##/ %
+" search the subtitle of a md file.
+" using ^ to tell starts with.
+vimgrep /^## / %
 ```
 
 ### bufdo to search replace in multifiles
 
 ```vim
-:bufdo %s/from/to/g | update
+bufdo %s/from/to/g | update
 ```
 
 The **update** command will save all updated buffers.
